@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="2dp"
+    app:contentPaddingLeft="0dp"
+    android:background="#5584"
+    app:contentPaddingTop="0dp"
+    app:cardCornerRadius="10dp"
+    app:contentPaddingBottom="0dp"
+    app:contentPaddingRight="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:background="#5584"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/name_cmnt"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:hint="asperiores ea ipsam "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_cmnt"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:id="@+id/body_cmnt"
+            android:textColor="@color/black"
+            android:hint="repellat aliquid praesentium dolorem quonsed totam minus non itaque nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
