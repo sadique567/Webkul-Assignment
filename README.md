@@ -33,6 +33,7 @@ The second tab will display the user's posts with a search feature.
 jsonplaceholder.typicode.com/users/userId/posts)
 *Note:* The search field will accept input as either a post ID or post title
 and find the data from the list accordingly.
+
 Screen 3: Create a page that shows the post details along with the
 comments list.
 - Data Source:
