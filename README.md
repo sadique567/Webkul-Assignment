@@ -1,5 +1,7 @@
 Mobikul Assignment
+
 Create the project with the following points:
+
 Screen 1: The first page will display a user list with a search feature.
 - Data Source:
 [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typic
@@ -13,6 +15,7 @@ ode.com/users)
 - Company Details
 *Note:* The search field will accept input as either a user name or user ID
 and find the data from the list accordingly.
+
 Screen 2: On clicking any user, pass the data to the next screen and
 display two tabs at the bottom.
 1. User Info
